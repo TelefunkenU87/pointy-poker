@@ -1,0 +1,15 @@
+{
+  "output": {
+    "removeComments": true,
+    "removeEmptyLines": true,
+    "showLineNumbers": true,
+    "filePath": "pointy-poker-repopack.txt"
+  },
+  "ignore": {
+    "useGitignore": true,
+    "useDefaultPatterns": true
+  },
+  "security": {
+    "enableSecurityCheck": true
+  }
+}

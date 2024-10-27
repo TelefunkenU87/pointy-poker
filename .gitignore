@@ -1,0 +1,41 @@
+# node_modules directory
+node_modules/
+
+# Output
+.output
+.vercel
+**/.svelte-kit
+**/build
+dist/
+
+# log files
+*.log
+
+# Env
+.env
+.env.*
+!.env.example
+!.env.test
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore npm debug files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Repopack
+*repopack.txt
+
+# Scratch files
+scratch*

@@ -1,0 +1,9 @@
+services:
+  pointy-poker:
+    build: .
+    image: pointy-poker:latest
+    ports:
+      - "8080:8080"
+    environment:
+      - NODE_ENV=production
+    restart: unless-stopped
